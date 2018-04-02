@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E93C887F207292F700B1F1A1 /* stateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C887D207292F700B1F1A1 /* stateMachine.cpp */; };
 		E93C888220729F7000B1F1A1 /* assetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C888020729F7000B1F1A1 /* assetManager.cpp */; };
+		E93C88852072A4D600B1F1A1 /* inputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C88832072A4D600B1F1A1 /* inputManager.cpp */; };
 		E981BDEA207281B00078E07C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E981BDE9207281B00078E07C /* main.cpp */; };
 		E981BDF6207282C10078E07C /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E981BDF1207282C10078E07C /* libsfml-graphics.2.4.2.dylib */; };
 		E981BDF7207282C10078E07C /* libsfml-network.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E981BDF2207282C10078E07C /* libsfml-network.2.4.2.dylib */; };
@@ -35,6 +36,8 @@
 		E93C887E207292F700B1F1A1 /* stateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stateMachine.hpp; sourceTree = "<group>"; };
 		E93C888020729F7000B1F1A1 /* assetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assetManager.cpp; sourceTree = "<group>"; };
 		E93C888120729F7000B1F1A1 /* assetManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = assetManager.hpp; sourceTree = "<group>"; };
+		E93C88832072A4D600B1F1A1 /* inputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inputManager.cpp; sourceTree = "<group>"; };
+		E93C88842072A4D600B1F1A1 /* inputManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inputManager.hpp; sourceTree = "<group>"; };
 		E981BDE6207281B00078E07C /* SFML Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SFML Template"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E981BDE9207281B00078E07C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E981BDF1207282C10078E07C /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "../External Libraries/SFML/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				E93C887E207292F700B1F1A1 /* stateMachine.hpp */,
 				E93C888020729F7000B1F1A1 /* assetManager.cpp */,
 				E93C888120729F7000B1F1A1 /* assetManager.hpp */,
+				E93C88832072A4D600B1F1A1 /* inputManager.cpp */,
+				E93C88842072A4D600B1F1A1 /* inputManager.hpp */,
 			);
 			path = "SFML Template";
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93C88852072A4D600B1F1A1 /* inputManager.cpp in Sources */,
 				E981BDEA207281B00078E07C /* main.cpp in Sources */,
 				E93C888220729F7000B1F1A1 /* assetManager.cpp in Sources */,
 				E93C887F207292F700B1F1A1 /* stateMachine.cpp in Sources */,
