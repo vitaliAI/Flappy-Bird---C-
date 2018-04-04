@@ -11,6 +11,8 @@
 		E93C888220729F7000B1F1A1 /* assetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C888020729F7000B1F1A1 /* assetManager.cpp */; };
 		E93C88852072A4D600B1F1A1 /* inputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C88832072A4D600B1F1A1 /* inputManager.cpp */; };
 		E93C88882072A81A00B1F1A1 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C88862072A81A00B1F1A1 /* game.cpp */; };
+		E93C888C2075421D00B1F1A1 /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = E93C8889207541C300B1F1A1 /* Resources */; };
+		E93C88902075432A00B1F1A1 /* splashState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E93C888E2075432A00B1F1A1 /* splashState.cpp */; };
 		E981BDEA207281B00078E07C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E981BDE9207281B00078E07C /* main.cpp */; };
 		E981BDF6207282C10078E07C /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E981BDF1207282C10078E07C /* libsfml-graphics.2.4.2.dylib */; };
 		E981BDF7207282C10078E07C /* libsfml-network.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E981BDF2207282C10078E07C /* libsfml-network.2.4.2.dylib */; };
@@ -20,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		E93C888B2075421000B1F1A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				E93C888C2075421D00B1F1A1 /* Resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E981BDE4207281B00078E07C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,6 +53,10 @@
 		E93C88842072A4D600B1F1A1 /* inputManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inputManager.hpp; sourceTree = "<group>"; };
 		E93C88862072A81A00B1F1A1 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
 		E93C88872072A81A00B1F1A1 /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
+		E93C8889207541C300B1F1A1 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		E93C888D2075425300B1F1A1 /* DEFINITIONS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DEFINITIONS.hpp; sourceTree = "<group>"; };
+		E93C888E2075432A00B1F1A1 /* splashState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = splashState.cpp; sourceTree = "<group>"; };
+		E93C888F2075432A00B1F1A1 /* splashState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = splashState.hpp; sourceTree = "<group>"; };
 		E981BDE6207281B00078E07C /* SFML Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SFML Template"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E981BDE9207281B00078E07C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E981BDF1207282C10078E07C /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "../External Libraries/SFML/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
@@ -93,9 +109,13 @@
 				E93C888020729F7000B1F1A1 /* assetManager.cpp */,
 				E93C888120729F7000B1F1A1 /* assetManager.hpp */,
 				E93C88832072A4D600B1F1A1 /* inputManager.cpp */,
+				E93C8889207541C300B1F1A1 /* Resources */,
 				E93C88842072A4D600B1F1A1 /* inputManager.hpp */,
 				E93C88862072A81A00B1F1A1 /* game.cpp */,
 				E93C88872072A81A00B1F1A1 /* game.hpp */,
+				E93C888D2075425300B1F1A1 /* DEFINITIONS.hpp */,
+				E93C888E2075432A00B1F1A1 /* splashState.cpp */,
+				E93C888F2075432A00B1F1A1 /* splashState.hpp */,
 			);
 			path = "SFML Template";
 			sourceTree = "<group>";
@@ -122,6 +142,7 @@
 				E981BDE2207281B00078E07C /* Sources */,
 				E981BDE3207281B00078E07C /* Frameworks */,
 				E981BDE4207281B00078E07C /* CopyFiles */,
+				E93C888B2075421000B1F1A1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -171,6 +192,7 @@
 			files = (
 				E93C88852072A4D600B1F1A1 /* inputManager.cpp in Sources */,
 				E981BDEA207281B00078E07C /* main.cpp in Sources */,
+				E93C88902075432A00B1F1A1 /* splashState.cpp in Sources */,
 				E93C888220729F7000B1F1A1 /* assetManager.cpp in Sources */,
 				E93C88882072A81A00B1F1A1 /* game.cpp in Sources */,
 				E93C887F207292F700B1F1A1 /* stateMachine.cpp in Sources */,

@@ -1,9 +1,10 @@
 #include <iostream>
 #include "game.hpp"
+#include "DEFINITIONS.hpp"
 
 int main()
 {
-    Vitali::Game(800, 600, "SFML Starter");
+    Vitali::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Flappy Bird");
     
     return EXIT_SUCCESS;
 }
