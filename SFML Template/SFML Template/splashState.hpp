@@ -1,14 +1,29 @@
-//
-//  splashState.hpp
-//  SFML Template
-//
-//  Created by Vitali Mueller on 04/04/2018.
-//  Copyright © 2018 Vitali Mueller. All rights reserved.
-//
+#pragma once
 
-#ifndef splashState_hpp
-#define splashState_hpp
+#include <SFML/Graphics.hpp>
+#include "state.hpp"
+#include "game.hpp"
 
-#include <stdio.h>
-
-#endif /* splashState_hpp */
+namespace Vitali
+{
+    class SplashState : public State
+    {
+    public:
+        SplashState(GameDataRef data);
+        
+        void Init();
+        void HandleInput();
+        void Update(float dt);
+        void Draw(float dt);
+        
+    private:
+        GameDataRef _data;
+        
+        sf::Clock _clock;
+        
+        sf::Texture _backgroundTexture;
+        sf::Sprite _background;
+    };
+    
+    
+}
